@@ -4,6 +4,7 @@ A Symfony application with a MongoDB database
 | Branch                     | MongoDB Version | Symfony Version | PHP Version     |
 |----------------------------|-----------------|-----------------|-----------------|
 | [mert-sevinc][mert-sevinc] | `4.4.x`         | `4.4.x`         | `7.4` or higher |
+| [symfony-5][symfony-5]     | `6.0.x`         | `5.4.x`         | `8.0` or higher |
 
 
 Read [MongoDB Docs](https://www.mongodb.com/docs/)  
@@ -19,4 +20,5 @@ The code is licensed under the [MIT License][license]
 
 
 [mert-sevinc]: https://github.com/habibun/symfony-mongodb/tree/mert-sevinc
+[symfony-5]: https://github.com/habibun/symfony-mongodb/tree/symfony-5
 [license]: https://github.com/habibun/symfony-mongodb/blob/main/LICENSE
