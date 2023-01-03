@@ -7,7 +7,7 @@ A Symfony application with a MongoDB database
 
 
 Read [MongoDB Docs](https://www.mongodb.com/docs/)  
-[Install MongoDB Community Edition on Ubuntu] (https://www.mongodb.com/docs/v4.4/tutorial/install-mongodb-on-ubuntu/)
+[Install MongoDB Community Edition on Ubuntu](https://www.mongodb.com/docs/v4.4/tutorial/install-mongodb-on-ubuntu/)
 
 ### Resources  
 [`mert-sevinc`][mert-sevinc]  
