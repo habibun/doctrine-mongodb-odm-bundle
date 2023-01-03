@@ -12,7 +12,9 @@ Install [MongoDB Community Edition on Ubuntu](https://www.mongodb.com/docs/v4.4/
 
 ### Resources  
 [`mert-sevinc`][mert-sevinc]  
-- [Symfony 4 and Doctrine Mongo DB](https://medium.com/@ahmetmertsevinc/symfony-4-and-doctrine-mongo-db-c9ac0f02f742)
+- [Symfony 4 and Doctrine Mongo DB](https://medium.com/@ahmetmertsevinc/symfony-4-and-doctrine-mongo-db-c9ac0f02f742)  
+
+[`symfony-5`][symfony-5]  
 
 
 ### License
