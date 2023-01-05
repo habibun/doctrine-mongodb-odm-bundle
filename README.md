@@ -1,4 +1,4 @@
-# symfony-mongodb
+# doctrine-mongodb-odm-bundle
 A Symfony application with a MongoDB database
 
 | Branch                     | MongoDB Version | Symfony Version | PHP Version     |
