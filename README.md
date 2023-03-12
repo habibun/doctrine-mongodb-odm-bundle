@@ -9,7 +9,7 @@ Please check the [projects](#projects) section for more details.
 | Branch                     | MongoDB Version | Symfony Version | PHP Version |
 |----------------------------|-----------------|-----------------|-------------|
 | [dmdb45][dmdb45]           | `^6.0`          | `^5.4`          | `^8.1`      |
-| [mert-sevinc][mert-sevinc] | `4.4.x`         | `^4.4`          | `^7.4`      |
+| [mert-sevinc][mert-sevinc] | `^4.4`         | `^4.4`          | `^7.4`      |
 
 
 ## Projects
