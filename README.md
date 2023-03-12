@@ -68,8 +68,8 @@ symfony composer install
 
 
 ## Learn More
-- Read [MongoDB Docs](https://www.mongodb.com/docs/)  
-- Install [MongoDB Community Edition on Ubuntu](https://www.mongodb.com/docs/v4.4/tutorial/install-mongodb-on-ubuntu/)
+- [MongoDB Docs](https://www.mongodb.com/docs/)  
+- [MongoDB Community Edition on Ubuntu](https://www.mongodb.com/docs/v4.4/tutorial/install-mongodb-on-ubuntu/)
 - [MongoDB Shell](https://www.mongodb.com/docs/mongodb-shell/)  
 - [Symfony2 & MongoDB ODM: Adding the missing ParamConverter](https://matthiasnoback.nl/2012/10/symfony2-mongodb-odm-adding-the-missing-paramconverter/)
 
