@@ -8,21 +8,21 @@ Please check the [projects](#projects) section for more details.
 ## Overview
 | Branch                     | MongoDB Version | Symfony Version | PHP Version |
 |----------------------------|-----------------|-----------------|-------------|
-| [symfony-5][symfony-5]     | `6.0.x`         | `^5.4`          | `^8.0`      |
+| [dmdb45][dmdb45]           | `^6.0`          | `^5.4`          | `^8.1`      |
 | [mert-sevinc][mert-sevinc] | `4.4.x`         | `^4.4`          | `^7.4`      |
 
 
 ## Projects
-<details><summary>xxx</summary>  
+<details><summary>A simple CRUD application using DoctrineMongoDBBundle: `^4.5`</summary>  
 <p>  
 
 <img
-src="xxx"
-alt="xxx"
+src="https://user-images.githubusercontent.com/5810350/224570134-5af06c26-8d8f-4899-8e7f-fa40cff94326.png"
+alt="Product Index Page"
 width="80%"
 />
 
-**Code:** https://github.com/habibun/symfony-mongodb/tree/xx  
+**Code:** https://github.com/habibun/symfony-mongodb/tree/dmdb45  
 **Resources:**
 - [xx][xx] 
 <br/>
@@ -31,8 +31,8 @@ width="80%"
 ```bash
 git clone git@github.com:habibun/symfony-mongodb.git
 cd symfony-mongodb
-git checkout xx
-git pull origin xx
+git checkout dmdb45
+git pull origin dmdb45
 symfony composer install
 ```
 
@@ -83,5 +83,5 @@ Distributed under the MIT License. See **[LICENSE][license]** for more informati
 [license]: https://github.com/habibun/symfony-mongodb/blob/main/LICENSE
 
 [mert-sevinc]: https://github.com/habibun/symfony-mongodb/tree/mert-sevinc
-[symfony-5]: https://github.com/habibun/symfony-mongodb/tree/symfony-5
+[dmdb45]: https://github.com/habibun/symfony-mongodb/tree/dmdb45
 [license]: https://github.com/habibun/symfony-mongodb/blob/main/LICENSE
