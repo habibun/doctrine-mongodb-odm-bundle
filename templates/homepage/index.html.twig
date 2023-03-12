@@ -1,0 +1,14 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Hello HomepageController!{% endblock %}
+
+{% block body %}
+    <h1>List of product</h1>
+
+    {{ render(controller('App\\Controller\\ProductController::index')) }}
+
+    <hr>
+     <h4>
+         <a href="{{ path('app_product_create') }}">Create product</a>
+     </h4>
+{% endblock %}
