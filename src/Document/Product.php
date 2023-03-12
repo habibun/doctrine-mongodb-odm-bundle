@@ -2,62 +2,44 @@
 
 namespace App\Document;
 
+use App\Repository\ProductRepository;
 use Doctrine\ODM\MongoDB\Mapping\Annotations as MongoDB;
 
-#[MongoDB\Document]
+#[MongoDB\Document(repositoryClass: ProductRepository::class)]
 class Product
 {
     #[MongoDB\Id]
-    private string $id;
+    private ?string $id = null;
 
     #[MongoDB\Field(type: 'string')]
-    private string $name;
+    private ?string $name = null;
 
-    #[MongoDB\Field(type:'float')]
-    private float $price;
+    #[MongoDB\Field(type: 'float')]
+    private ?float $price = null;
 
-    /**
-     * @return string
-     */
-    public function getId(): string
+    public function getId(): ?string
     {
         return $this->id;
     }
 
-    /**
-     * @return string
-     */
-    public function getName(): string
+    public function getName(): ?string
     {
         return $this->name;
     }
 
-    /**
-     * @param string $name
-     *
-     * @return Product
-     */
-    public function setName(string $name): Product
+    public function setName(string $name): self
     {
         $this->name = $name;
 
         return $this;
     }
 
-    /**
-     * @return float
-     */
-    public function getPrice(): float
+    public function getPrice(): ?float
     {
         return $this->price;
     }
 
-    /**
-     * @param float $price
-     *
-     * @return Product
-     */
-    public function setPrice(float $price): Product
+    public function setPrice(float $price): self
     {
         $this->price = $price;
 
