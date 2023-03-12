@@ -70,6 +70,7 @@ symfony composer install
 ## Learn More
 Read [MongoDB Docs](https://www.mongodb.com/docs/)  
 Install [MongoDB Community Edition on Ubuntu](https://www.mongodb.com/docs/v4.4/tutorial/install-mongodb-on-ubuntu/)
+[MongoDB Shell](https://www.mongodb.com/docs/mongodb-shell/)  
 
 
 ## License
