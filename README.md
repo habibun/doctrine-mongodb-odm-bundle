@@ -51,7 +51,7 @@ width="80%"
 
 **Code:** https://github.com/habibun/symfony-mongodb/tree/mert-sevinc  
 **Resources:**
-- [Symfony 4 and Doctrine Mongo DB][https://medium.com/@ahmetmertsevinc/symfony-4-and-doctrine-mongo-db-c9ac0f02f742]  
+- [Symfony 4 and Doctrine Mongo DB](https://medium.com/@ahmetmertsevinc/symfony-4-and-doctrine-mongo-db-c9ac0f02f742)  
 <br/>
 
 #### Installation
