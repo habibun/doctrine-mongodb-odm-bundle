@@ -6,10 +6,10 @@ Please check the [projects](#projects) section for more details.
 
 
 ## Overview
-| Branch                     | MongoDB Version | Symfony Version | PHP Version     |
-|----------------------------|-----------------|-----------------|-----------------|
-| [symfony-5][symfony-5]     | `6.0.x`         | `5.4.x`         | `8.0` or higher |
-| [mert-sevinc][mert-sevinc] | `4.4.x`         | `4.4.x`         | `7.4` or higher |
+| Branch                     | MongoDB Version | Symfony Version | PHP Version |
+|----------------------------|-----------------|-----------------|-------------|
+| [symfony-5][symfony-5]     | `6.0.x`         | `^5.4`          | `^8.0`      |
+| [mert-sevinc][mert-sevinc] | `4.4.x`         | `^4.4`          | `^7.4`      |
 
 
 ## Projects
