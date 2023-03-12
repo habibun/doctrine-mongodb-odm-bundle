@@ -13,7 +13,7 @@ Please check the [projects](#projects) section for more details.
 
 
 ## Projects
-<details><summary>A simple CRUD application using DoctrineMongoDBBundle: `^4.5`</summary>  
+<details><summary>A simple CRUD application using DoctrineMongoDBBundle: ^4.5</summary>  
 <p>  
 
 <img
@@ -24,7 +24,7 @@ width="80%"
 
 **Code:** https://github.com/habibun/symfony-mongodb/tree/dmdb45  
 **Resources:**
-- [xx][xx] 
+- [DoctrineMongoDBBundle](https://www.doctrine-project.org/projects/doctrine-mongodb-bundle/en/latest/index.html) 
 <br/>
 
 #### Installation
