@@ -14,9 +14,13 @@ class IndexController extends AbstractController
     /**
      * @Route("/", "GET", name="homepage")
      */
-    public function homepage()
+    public function homepage(DocumentManager $dm)
     {
-        return $this->render('index/homepage.html.twig');
+        $users = $dm->getRepository(User::class)->findAll();
+
+        return $this->render('index/homepage.html.twig', [
+            'users' => $users
+        ]);
     }
 
     /**
@@ -33,7 +37,8 @@ class IndexController extends AbstractController
 
         $dm->persist($user);
         $dm->flush();
-        return new JsonResponse(array('Status' => 'OK'));
+
+        return $this->redirectToRoute('homepage');
     }
 
 }

@@ -1,5 +1,29 @@
-<a href="{{ path('homepage') }}">Homepage</a>
-<br>
+<h1>User index</h1>
 
-<a href="{{ path('mongo_test') }}">Mongo test</a>
+<table class="table">
+    <thead>
+    <tr>
+        <th>Id</th>
+        <th>Email</th>
+        <th>Firstname</th>
+        <th>Lastname</th>
+    </tr>
+    </thead>
+    <tbody>
+    {% for user in users %}
+        <tr>
+            <td>{{ user.id }}</td>
+            <td>{{ user.email }}</td>
+            <td>{{ user.firstname }}</td>
+            <td>{{ user.lastname }}</td>
+        </tr>
+    {% else %}
+        <tr>
+            <td colspan="4">no records found</td>
+        </tr>
+    {% endfor %}
+    </tbody>
+</table>
+
+<a href="{{ path('mongo_test') }}">Create new user</a>
 
