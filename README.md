@@ -9,7 +9,7 @@ Please check the [projects](#projects) section for more details.
 | Branch                     | MongoDB Version | Symfony Version | PHP Version |
 |----------------------------|-----------------|-----------------|-------------|
 | [dmdb45][dmdb45]           | `^6.0`          | `^5.4`          | `^8.1`      |
-| [mert-sevinc][mert-sevinc] | `^4.4`         | `^4.4`          | `^7.4`      |
+| [mert-sevinc][mert-sevinc] | `^4.4`          | `^4.4`          | `^7.4`      |
 
 
 ## Projects
@@ -32,7 +32,6 @@ width="80%"
 git clone git@github.com:habibun/symfony-mongodb.git
 cd symfony-mongodb
 git checkout dmdb45
-git pull origin dmdb45
 symfony composer install
 ```
 
@@ -44,8 +43,8 @@ symfony composer install
 <p>  
 
 <img
-src="xxx"
-alt="xxx"
+src="https://user-images.githubusercontent.com/5810350/224615292-f566b0fd-4293-4d31-b4e6-51e00d7e4d6f.png"
+alt="User Index Page"
 width="80%"
 />
 
@@ -59,7 +58,6 @@ width="80%"
 git clone git@github.com:habibun/symfony-mongodb.git
 cd symfony-mongodb
 git checkout mert-sevinc
-git pull origin mert-sevinc
 symfony composer install
 ```
 
