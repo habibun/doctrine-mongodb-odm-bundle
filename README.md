@@ -43,8 +43,8 @@ symfony composer install
 <p>  
 
 <img
-src="xxx"
-alt="xxx"
+src="https://user-images.githubusercontent.com/5810350/224615292-f566b0fd-4293-4d31-b4e6-51e00d7e4d6f.png"
+alt="User Index Page"
 width="80%"
 />
 
